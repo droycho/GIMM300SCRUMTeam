@@ -1,77 +1,139 @@
 @charset "utf-8";
-body {
+/*body {
 	background-color: #F1F1EE;
 	margin: 0;
+}*/
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #e0cba8;
+	margin: -50px;
+	
 }
-/*
-body div {
-	width: 113vmax;
-}
-*/
 
 header {
-	background-color: #DFDDD6;
+	width: 100%;
+	height: 0%;
+	background-color: #5D5E5D;
+	border-bottom: 1px solid #353635;
+}
+header2 {
+	width: 100%;
+	height: 3%;
+	background-color: #5D5E5D;
+	border-bottom: 1px solid #353635;
+}
+.container {
+	width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
 }
 
 
-.banner-home{
-/*	background-image: url();
-*/	
-	height: 100px;
-	background-size: cover
-	background-position: center
-	padding-top: 20px;
-}
-main div p {
-	padding-left: 15px;	
-}
-main div div {
-	font-size: large;
-}
-main div div {
-	padding-left: 0px;
-	font-size: large;
-	margin-top: -7px;
-}
-main div div {
-	font-weight: normal;
-}
-
-
-
-
-
-.banner-home h1 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	text-align: center;/* TODO Seems off-center;*/
-	font: 3em;
-	margin-top: 0;
-	color:#A49F8B
-}
-
-nav ul li a { /*TODO Should be Home    About    Gallery    Video    Contact (or whatever--these are placeholders) */
-	text-decoration: none;
-	color:#A49F8B;
-	background-color:#A49881
-	display: block;
+.logo {
+	color: #fff;
+	font-weight: bold;
+	margin-left: auto;
+	letter-spacing: 4px;
+	margin-right: auto;
 	text-align: center;
-	padding: 10px 0 10px 0;
-	margin-bottom: 5px;
+	padding-top: 15px;
+	line-height: 2em;
+	font-size: 40px;
+}
+.logo2 {
+	color: #fff;
+	font-weight: bold;
+	margin-left: auto;
+	letter-spacing: 4px;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 2em;
+	font-size: 15px;
+	border-bottom: 2px solid #FFFFFF;
 }
 
-nav ul {
-	list-style: none;
-	padding-left: 0;
+.intro {
+	background-color: #779fa1;
+	padding-bottom: 35px;
+	padding-right:15px;
+	padding-left: 15px;
+	border: 2px solid #FFFFFF;
+}
+.column {
+	width: 33%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	float: left;	
+	margin-left: auto;
+	
+}
+.column2 {
+	width: 66%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+	margin-right: auto;	
+	
+}
+.intro .column2 h3 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 35px;
+}
+.intro .column2 p {
+	color: #FFFFFF;
 }
 
-/*TODO  Meet the Team should be centered and a different color
-		Probably could use a better font all around.
+.intro .column2 p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: left;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+
+footer {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+	.intro {
+	display: inline-block;
+	background-color: #6DC7D0;
+}
+.profile {
+	width: 90%;
+	height:100%;
+	float: right;
+}
+
+
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+
+
+
+
+/*TODO  
+		
 		Each bio should be on a page of it's own. Not on the 
 			Home page.
-		Image needs padding between it and text
-		Team member's name should be bolded and bigger.
-		Could use a border around the bio text.
-		Text block should be smaller. It is poorly formatted now
-			- text should not extend so far across page.
 		After photos are taken, they need to be coded so that
 		they are posed to follow the mouse (see link in Trello)*/
