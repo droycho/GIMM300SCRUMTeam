@@ -148,15 +148,15 @@ footer {
 	border-top-width: 2px;
 }
 
-.sticky{
+/* .sticky{
 	position: fixed;
 	top: 0;
 	width:100%;
 }
 
-.sticky + .column + .column2 {
+.sticky + .intro {
 	padding-top:102px;
-}
+} */
 
 
 
