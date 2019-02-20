@@ -31,6 +31,17 @@ header2 {
 	background-color: #FFFFFF;
 } */
 
+/*
+BootStrap's code for the .container class:
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*/
+
 
 .logo {
 	color: #fff;
