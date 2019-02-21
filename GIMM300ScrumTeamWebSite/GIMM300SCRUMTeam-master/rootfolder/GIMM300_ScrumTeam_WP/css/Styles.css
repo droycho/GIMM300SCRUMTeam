@@ -42,6 +42,9 @@ BootStrap's code for the .container class:
 }
 */
 
+.jumbotron {
+	background-color: #717070;
+}
 
 .logo {
 	color: #fff;
