@@ -23,7 +23,7 @@
         <nav class="nav">
           <a Style="text-decoration: none" ; href="DJ.html" class="logo2">DJ</a>
           <a Style="text-decoration: none" ; href="Casey.html" class="logo2">Casey</a>
-          <a Style="text-decoration: none" ; href="Marie.html" class="logo2">Marie</a>
+          <a Style="text-decoration: none" ; href="Marie.html" class="logo2"><em><strong>Marie</strong></em></a>
           <a Style="text-decoration: none" ; href="Aidan.html" class="logo2">Aidan</a>
         </nav>
       </header2>
@@ -34,36 +34,37 @@
         <section class="intro">
           <div class="column">
         
-			   <a Style="text-decoration: none"; class="logo2">
-				   <a href="http://droycho.github.io/typing-game/" target="_blank">
-				 <img src="" alt="Whale of Life" class="profile"/>
-				   </a>
-				   </a>
-			  
+			   <a Style="text-decoration: none" ; href="" class="logo2">
+				 <img src="img/Whaleoflife_Screenshot.png" alt="Whale of Life" class="profile"/></a>
+	
 			</div>
 			
 			  <div class="column2">
-				  <a href="" target="_blank">
-            	<h3><u>Whale of Life</u></h3>
-				</a>
-            		<p>
-						 
+            	<h3>Whale of Life</h3>
+				  
+            		<p>Whale of Life is a flash game that was made in the first year of the Boise State GIMM program with a team of four 
+			other people, this game is a showcase of what was learned in the first year in the GIMM program.
+			Key features being State Machines and Kinematics.
 					</p>
          	 	</div>
         </section>
+		  
 		  <div class="portfolioContainer">
-			<div class="jumbotron">
-			  <a Style="text-decoration: none" ; href="#" class="logo">
-				<h4><u>Projects</u></h4>
-			  </a>
-			  <header2>
-				<nav class="portfolioNav">
-				  <a Style="text-decoration: none" ; href="Aidan_Project1.html" class="artifactBox">Whale of Life</a>
-				</nav>
-			 </header2>
-			</div>
-		<div class="copyright">&copy;2019 - <strong>GIMM</strong></div>
-	  </div>
+    		<div class="jumbotron">
+      			<a Style="text-decoration: none" ; href="" class="logo">
+        			<h4>Projects</h4>
+     			 </a>
+      				<header2>
+        				<nav class="portfolioNav">
+          					<a Style="text-decoration: none" ; href="Aidan_Project1.html" class="artifactBox">Whale of Life</a>
+						\
+        				</nav>
+     				</header2>
+    		</div>
+ 		 </div>
+
+        <div class="copyright">&copy;2019 - <strong>GIMM</strong></div>
+      </div>
 </body>
 
 </html>
