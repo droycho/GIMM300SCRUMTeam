@@ -59,6 +59,8 @@
 			  <header2>
 				<nav class="portfolioNav">
 				  <a Style="text-decoration: none" ; href="Aidan_Project1.html" class="artifactBox">Whale of Life</a>
+				  <a Style="text-decoration: none" ; href="Team_Project.html" class="artifactBox">Ionic/Angular</a>
+
 				</nav>
 			 </header2>
 			</div>
